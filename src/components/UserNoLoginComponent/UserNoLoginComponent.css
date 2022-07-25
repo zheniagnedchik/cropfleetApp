@@ -1,0 +1,8 @@
+.noLoginTextContainer {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #4d4d4d;
+  text-align: center;
+}

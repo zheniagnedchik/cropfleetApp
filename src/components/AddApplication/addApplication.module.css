@@ -1,0 +1,36 @@
+.AddApplication{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 13px 13px 0 0;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    min-height: 50vh;
+    border-bottom: 0.5px #4d4d4d solid;
+    margin-bottom: 60px;
+}
+.AddApplication__Container{
+    overflow-y: scroll;
+    flex-direction: column;
+    display: flex;
+    max-height: 45vh;
+    padding-bottom: 20px;
+}
+.AddApplication__Container::-webkit-scrollbar{
+    display: none;
+}
+.AddApplication__Form{
+ margin: 10 40px;    
+}
+.AddApplication__Text{
+    margin-left: 5px;
+}
+.AddApplication__Option{
+    width: 70%;
+}
+.Filler{
+    height: 300px;
+}

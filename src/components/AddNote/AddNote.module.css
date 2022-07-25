@@ -1,0 +1,52 @@
+.Note__Notes{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    max-width: 320px;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.Note__Container{
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 45vh;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Note__NoNotes{
+  margin:  auto auto;
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.Note__NoNotes:hover{
+    cursor: default;
+}
+.Note__Addnotes{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.Note__AddNotesContainer{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.Note__AddNotesContainer:hover{
+    cursor: default;
+}
+.Note__BlackPlus{
+    opacity: 0.7;
+    margin-left: 5px;
+    width: 28px;
+}

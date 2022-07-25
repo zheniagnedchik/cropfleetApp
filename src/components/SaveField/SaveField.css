@@ -1,0 +1,113 @@
+.SaveFielContainer {
+  width: 100%;
+  height: 0;
+  background: #fff;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  border-radius: 13px;
+}
+.SaveFielContainer.active {
+  height: 45vh;
+  /* transition-property: height;
+  transition-duration: 0.2s; */
+}
+.SaveFielContainer.list {
+  height: 100vh;
+  /* transition-property: height;
+  transition-duration: 0.5s; */
+}
+.saveFieldHeader {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #4d4d4d;
+  font-size: 18px;
+  margin-left: 5%;
+}
+.saveFieldHeaderContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+.backImgSaveField {
+  width: 20px;
+  height: 20px;
+}
+.saveFieldNameContainer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  justify-content: space-between;
+  border: 0.5px #4d4d4d solid;
+  height: 40px;
+}
+.inputSaveField {
+  border: none;
+}
+.saveFieldNameLabel {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #4d4d4d;
+  margin-left: 10px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+.saveFieldCultureContainer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  justify-content: space-between;
+  border: 0.5px #4d4d4d solid;
+  height: 40px;
+}
+.saveFieldCultureLabel {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #4d4d4d;
+  margin-left: 10px;
+}
+.selectCulture {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #00c9da;
+  margin-right: 5%;
+}
+.saveBtnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.saveBtn {
+  width: 200px;
+  height: 50px;
+  background: #00c9da;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.cultureItem {
+  width: 90%;
+  margin-left: 5%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px #4d4d4d solid;
+}
+.cultureLabel {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #4d4d4d;
+  margin-left: 5px;
+}
+.cultureitemsContainer {
+  margin-top: 10px;
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+}

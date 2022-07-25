@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 5px;
+}
+.input:focus {
+  outline: none;
+}
+.body {
+    display: flex;
+    max-width: 320px;
+    margin: 5px 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+      margin-left: 3px;
+  }
+  li::before {
+    content: "•";
+    float: left;
+    padding: 0 0.5em 0 0;
+  }

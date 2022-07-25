@@ -1,0 +1,104 @@
+.sprayerToolsBtn {
+  background: #00c9da;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.04);
+  border-radius: 44px;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.toolsImg {
+  width: 20px;
+  height: 20px;
+}
+.bgEllipse {
+  background: rgba(0, 201, 218, 0.2);
+  border-radius: 300px 0 0 0;
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.bgEllipseContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.listTollsContainer {
+  width: 250px;
+  height: 70px;
+  background-color: #fff;
+  z-index: 999;
+  position: relative;
+  border-radius: 30px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.toolsImgContainer {
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(
+      0deg,
+      rgba(26, 176, 206, 0.1),
+      rgba(26, 176, 206, 0.1)
+    ),
+    #ffffff;
+  border-radius: 40px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #007983;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toolsLabelContainer {
+  width: 160px;
+  height: 45px;
+  background: linear-gradient(
+      0deg,
+      rgba(26, 176, 206, 0.1),
+      rgba(26, 176, 206, 0.1)
+    ),
+    #ffffff;
+  border-radius: 40px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #007983;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.droneIndicator {
+  width: 10px;
+  height: 10px;
+  background: lime;
+  margin-left: 10px;
+}
+.activeDeviceItemSprayer {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+}
+.activeDeviceSprayerContainer {
+  width: 90%;
+  margin-left: 5%;
+  height: 40px;
+  border-radius: 13px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(108, 114, 131, 0.1),
+    0px 0px 4px rgba(108, 114, 131, 0.03);
+}

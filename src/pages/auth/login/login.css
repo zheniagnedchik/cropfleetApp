@@ -1,0 +1,111 @@
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  color: #474f64;
+  font-weight: 400;
+}
+.login {
+  display: flex;
+  justify-content: center;
+}
+.noAccount {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 55px;
+}
+.noAccount a {
+  color: #00a1ae;
+  margin-left: 10px;
+}
+.knowMe {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.knowMe input {
+  margin-right: 8px;
+}
+h1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.body {
+  margin: 0 20px;
+}
+.inputs {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  max-width: 300px;
+}
+.email,
+.password {
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.email:focus,
+.password:focus {
+  outline: none;
+}
+.passwordContainer {
+  position: relative;
+}
+.enterInfo {
+  margin-bottom: 30px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+}
+.buttons button {
+  height: 56px;
+  border: 1px solid #00c9da;
+  border-radius: 4px;
+}
+.enter {
+  background-color: #00c9da;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.googleEnter {
+  background-color: white;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.big {
+  width: 100%;
+}
+.border {
+   min-height: 56;
+}
+.googleEnter img {
+  margin-right: 5px;
+}
+.forget,
+.regBtn {
+  border: none;
+  background-color: white;
+  text-decoration: underline;
+}
+.regBtn {
+  color: #00a1ae;
+  margin-left: 10px;
+}

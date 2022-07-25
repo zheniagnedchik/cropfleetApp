@@ -1,0 +1,28 @@
+.bottomSidebarContainer {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  bottom: 0;
+}
+.btnAddField {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+.imgBtnPlus {
+  width: 30px;
+  height: 30px;
+}
+.sideBarbtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sideBarbtnLabel {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #4d4d4d;
+  font-size: 12px;
+}

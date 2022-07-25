@@ -1,0 +1,42 @@
+
+.h3{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.unActiveEdit{
+  display: flex;
+  flex-direction: row;
+}
+.img{
+  margin-left: 4px;
+  
+}
+.area {
+  resize: none;
+  border: none;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  max-width: 320px;
+  height: 20px;
+  padding: 3px 3px;
+}
+.body {
+ display: flex;
+ align-items: center;
+ min-height: 40px;
+}
+.area:focus {
+  outline: none;
+}
+.area:disabled {
+  background-color: white;
+}
+.area:enabled {
+  border: 1px solid #00c9da;
+  border-radius: 2px;
+  width: 200%;
+}
+.ce{
+  display: flex;
+}

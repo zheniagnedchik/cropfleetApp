@@ -1,0 +1,17 @@
+.hintsAddFieldContainer {
+  width: 90%;
+  height: 80px;
+  left: 5%;
+  border-radius: 13px;
+  background: #00c9da;
+  position: absolute;
+  z-index: 999;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  text-align: center;
+}

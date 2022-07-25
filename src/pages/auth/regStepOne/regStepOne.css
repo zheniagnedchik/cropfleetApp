@@ -1,0 +1,79 @@
+h1,
+p,
+h2,
+h3,
+h4,
+a {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+}
+p {
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+
+.greyLine {
+  width: 24%;
+  height: 2px;
+  background-color: rgba(128, 128, 128, 0.308);
+  border-radius: 8px;
+}
+.notGray {
+  width: 20%;
+  height: 2px;
+  background-color: #00c9da;
+  border-radius: 8px;
+}
+.lineContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.RegContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.regNumber {
+  color: rgba(128, 128, 128, 0.541);
+  font-weight: 300;
+}
+.fieldsContainer {
+  display: flex;
+  max-width: 320px;
+  flex-direction: column;
+  margin: auto !important;
+}
+.field,
+.secretField {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 5px;
+}
+.field:focus,
+.secretField:focus {
+  outline: none;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+}
+.buttons button {
+  height: 56px;
+  border: 1px solid #00c9da;
+  border-radius: 4px;
+}
+.enter {
+  background-color: #00c9da;
+  color: white;
+  margin-bottom: 15px;
+}
+
+
+ul{
+  color: rgb(255, 38, 0);
+}

@@ -1,0 +1,101 @@
+h1,
+p,
+h2,
+h3,
+h4,
+h5,
+a {
+
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+}
+p {
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+.greyLine {
+  width: 24%;
+  height: 2px;
+  background-color: rgba(128, 128, 128, 0.308);
+  border-radius: 8px;
+}
+.notGray {
+  width: 20%;
+  height: 2px;
+  background-color: #00c9da;
+  border-radius: 8px;
+}
+.lineContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.imageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageDiv {
+  margin: 22px 0px;
+}
+.avatarButtons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 320px;
+  box-sizing: border-box;
+}
+.avatarButtons button {
+  height: 56px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 4px;
+  color: #474f64;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.avatarButtons button img {
+  margin-right: 22px;
+}
+.buttons {
+  margin: 0 auto;
+}
+.loaderContainer {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enter {
+  background-color: #00c9da;
+  color: white;
+  margin-bottom: 15px;
+}
+.unEditableInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 1px 8px rgba(128, 128, 128, 0.2);
+  margin-bottom: 11px;
+}
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.EditableInfo {
+  margin-bottom: 20px;
+}
+.editBody {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.textBlock{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 2px;
+}

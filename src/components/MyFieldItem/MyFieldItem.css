@@ -1,0 +1,147 @@
+.myFieldItem {
+  width: 100%;
+  height: 45vh;
+  background-color: #fff;
+  position: absolute;
+  z-index: 999;
+  bottom: 60px;
+  border-bottom: 0.5px #4d4d4d solid;
+  /* border-radius: 13px; */
+}
+
+.descItemContaner {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 0.5px #4d4d4d solid;
+  height: 30px;
+}
+.descitemField {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.itemFieldDescription {
+  margin-top: 20px;
+}
+.fieldBtn {
+  width: 150px;
+  height: 40px;
+  background: #00c9da;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #fff;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.fieldBtnGroup {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sliderLabel {
+  margin-top: 20px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  color: #4d4d4d;
+}
+.swipeBtn {
+  width: 90%;
+  margin-left: 5%;
+}
+.ndviButton {
+  position: absolute;
+  z-index: 999;
+  width: 48px;
+  height: 34px;
+  background-color: #1f2229;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  top: 0;
+  right: 34px;
+  top: 44vh;
+}
+.ndviButtonActive {
+  position: absolute;
+  z-index: 999;
+  top: 0vh;
+  right: 34px;
+  width: 48px;
+  height: 34px;
+  background: linear-gradient(119.39deg, #ffba17 -40.81%, #fc6418 97.33%),
+    linear-gradient(0deg, #990944, #990944),
+    linear-gradient(180deg, #000000 0%, #000000 100%);
+  /* Custom Small */
+
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.04);
+  color: #fff;
+  border: none;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  top: 44vh;
+}
+.listndvi {
+  overflow-x: scroll; /* Добавляем полосу прокрутки */
+  width: 77%; /* Ширина блока */
+  height: 34px; /* Высота блока */
+  padding-left: 5px; /* Поля вокруг текста */
+  border: solid 1px black; /* Параметры рамки */
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  background: rgba(31, 29, 28, 0.7);
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 82px;
+  top: 44vh;
+}
+.ndviItem {
+  padding-left: 10px;
+  color: #fff;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+}
+.btnSelectLayer {
+  padding: 10px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 44vh;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+}
+.listSelectLayer {
+  display: flex;
+  position: absolute;
+  z-index: 999;
+  top: 34.5vh;
+  width: 170px;
+  border-radius: 10px 10px 0 0;
+
+  background-color: #fff;
+  right: 0;
+  flex-direction: column;
+}
+.listSelectLayerItem {
+  border-bottom: 0.5px solid #4d4d4d;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 95%;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+}
